@@ -16,6 +16,7 @@ body {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+
 .container {
   background: #ffffff;
   width: 400px;
@@ -58,7 +59,6 @@ header h1 {
   background-color: #4cae4c;
 }
 
-
 .filters {
   margin: 20px 0;
   display: flex;
@@ -97,7 +97,7 @@ header h1 {
   border-radius: 5px;
 }
 
-#taskList li.completed {
+#taskList li .task-text.completed {
   text-decoration: line-through;
   background-color: #d4edda;
 }
